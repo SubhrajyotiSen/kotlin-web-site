@@ -481,7 +481,7 @@ Learn more about [project-library compatibility](multiplatform-hierarchy.md#comp
 
 #### Better code-sharing in your project
 
-Without hierarchical structure support, there is no straightforward way to share code across _some_ but not _all_ [Kotlin targets](multiplatform-dsl-reference.md#targets).
+Without hierarchical structure support, there is no straightforward way to share code across _some_ but not _all_ [Kotlin targets](native-target-support.md).
 One popular example is sharing code across all iOS targets and having access to iOS-specific [dependencies](multiplatform-share-on-platforms.md#use-native-libraries-in-the-hierarchical-structure), like `Foundation`.
 
 Thanks to the hierarchical project structure support, you can now achieve this out of the box.

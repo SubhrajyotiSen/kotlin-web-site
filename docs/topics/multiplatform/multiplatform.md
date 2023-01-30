@@ -67,7 +67,7 @@ coroutines](https://github.com/Kotlin/kotlinx.coroutines).
 
 ### Code sharing between platforms
 
-With Kotlin Multiplatform, spend less time on writing and maintaining the same code for [different platforms](multiplatform-dsl-reference.md#targets)
+With Kotlin Multiplatform, spend less time on writing and maintaining the same code for [different platforms](native-target-support.md)
  – just share it using the mechanisms Kotlin provides:
 
 * [Share code among all platforms used in your project](multiplatform-share-on-platforms.md#share-code-on-all-platforms). Use it for sharing the common 

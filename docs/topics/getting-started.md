@@ -198,7 +198,7 @@ Here you'll learn how to develop and publish a multiplatform library:
 3. **Learn more about Kotlin Multiplatform programming:**
 
    * [Introduction to Kotlin Multiplatform](multiplatform-get-started.md).
-   * [Kotlin Multiplatform supported platforms](multiplatform-dsl-reference.md#targets).
+   * [The list of supported platforms](native-target-support.md).
    * [Kotlin Multiplatform programming benefits](multiplatform.md).
 
 4. **Join the Kotlin Multiplatform community:**

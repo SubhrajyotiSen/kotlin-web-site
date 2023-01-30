@@ -133,9 +133,9 @@ modules to it.
 
 For the library configuration, the additional `target` parameter is available:
 
-| **Name**        | **Description**                                                                                                                                        |
-|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `target`        | Declares a particular target of a project. The names of available targets are listed in the [Targets](multiplatform-dsl-reference.md#targets) section. |
+| **Name** | **Description**                                                                                                |
+|----------|----------------------------------------------------------------------------------------------------------------|
+| `target` | Declares a particular target of a project. See the full [list of supported targets](native-target-support.md). |
 
 <tabs group="build-script">
 <tab title="Kotlin" group-key="kotlin">
@@ -184,7 +184,7 @@ For the framework configuration, the following additional parameters are availab
 
 | **Name**       | **Description**                                                                                                                                                                                   |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `target`       | Declares a particular target of a project. The names of available targets are listed in the [Targets](multiplatform-dsl-reference.md#targets) section.                                            |
+| `target`       | Declares a particular target of a project. See the full [list of supported targets](native-target-support.md).                                                                                    |
 | `embedBitcode` | Declares the mode of bitcode embedding. Use `MARKER` to embed the bitcode marker (for debug builds) or `DISABLE` to turn off embedding. Bitcode embedding is not required for Xcode 14 and later. |
 
 <tabs group="build-script">
