@@ -58,8 +58,8 @@ test and production purposes, you can [create custom compilations](multiplatform
 The targets of a multiplatform project are described in the corresponding blocks inside `kotlin`, for example, `jvm`, `android`, `iosArm64`.
 The complete list of available targets is the following:
 
-See the full [list of supported targets](native-target-support.md).
-
+> See the full [list of supported targets](native-target-support.md).
+> 
 > A target that is not supported by the current host is ignored during building and therefore not published.
 >
 {type="note"}
